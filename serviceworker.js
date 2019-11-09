@@ -24,7 +24,7 @@
         */
 // serviceworker.js
 const cacheName = "PWAv1";
-const filesToCache = ['index.html' , 'style.css' , 'main.js' , 'roadworker.js', 'rivalsworker.js', 'colisionsworker.js' , 'favicon.png', 'favicon40.png', 'favicon192.png', 'favicon512.png', 'manifest.manifest', 'car.png', 'car1.png', 'car2.png', 'car3.png', 'car4.png', 'car5.png', 'car6.png', 'car7.png', 'car8.png', 'car9.png', 'signal_l.png', 'signal_r.png'];
+const filesToCache = ['index.html' , 'buttons.js', 'style.css' , 'main.js' , 'roadworker.js', 'rivalsworker.js', 'colisionsworker.js' , 'favicon.png', 'favicon40.png', 'favicon192.png', 'favicon512.png', 'manifest.manifest', 'car.png', 'car1.png', 'car2.png', 'car3.png', 'car4.png', 'car5.png', 'car6.png', 'car7.png', 'car8.png', 'car9.png', 'signal_l.png', 'signal_r.png'];
 
 self.addEventListener("install", function(event) {
   // Perform install steps
